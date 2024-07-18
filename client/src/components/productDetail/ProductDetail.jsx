@@ -68,7 +68,7 @@ const ProductDetail = () => {
           <h2 className={classes.title}>{product?.title}</h2>
           <p className={classes.desc}>{product?.desc}</p>
           <h2 className={classes.price}>
-            <span>$</span> {product?.price}
+            <span>₹</span> {product?.price}
           </h2>
           <div className={classes.quantity}>
             <button onClick={removeQuantity} className={classes.minusBtn}>

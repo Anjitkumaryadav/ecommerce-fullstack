@@ -16,7 +16,7 @@ const Login = () => {
 
     try {
         console.log(email, password)
-        const res = await fetch(`http://localhost:5000/auth/login`, {
+        const res = await fetch(`https://ecommerce-fullstack-n270.onrender.com/auth/login`, {
             headers: {
                 'Content-Type': 'application/json'
             },

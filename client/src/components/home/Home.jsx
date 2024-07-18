@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/product`);
+        const res = await fetch(`https://ecommerce-fullstack-n270.onrender.com/product`);
         const data = await res.json();
         console.log(data)
         setProducts(data);

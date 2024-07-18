@@ -20,7 +20,7 @@ const Register = () => {
     if (confirmPass !== password) return;
 
     try {
-      const res = await fetch(`http://localhost:5000/auth/register`, {
+      const res = await fetch(`https://ecommerce-fullstack-n270.onrender.com/auth/register`, {
         headers: {
           "Content-Type": "application/json",
         },
